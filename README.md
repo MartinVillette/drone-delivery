@@ -23,10 +23,22 @@ This project implements an advanced **3D pathfinding and route optimization syst
 
 Interactive grid-based visualization showing how different pathfinding algorithms explore the search space:
 
+![Grid Setup](screenshots/main_lab_setup.png)
+*Interactive grid setup with start (orange) and end (blue) points*
+
 - **Dijkstra's Algorithm**: Uniform exploration pattern
 - **A* Algorithm**: Heuristic-guided efficient search
 - **Visual Learning**: Color-coded exploration with g-cost and h-cost values
 - **Obstacle Creation**: Click to place/remove barriers
+
+**Algorithm Results Comparison:**
+
+<div align="center">
+  <img src="screenshots/dijkstra-3.png.png" alt="Dijkstra Result" width="45%"/>
+  <img src="screenshots/a_star-3.png" alt="A* Result" width="45%"/>
+</div>
+
+*Left: Dijkstra's uniform exploration pattern | Right: A* heuristic-guided search*
 
 **Controls**:
 - Mouse Click: Create/remove obstacles
@@ -41,6 +53,9 @@ Interactive grid-based visualization showing how different pathfinding algorithm
 
 Demonstrates pathfinding in realistic 3D urban environment:
 
+![3D City Model](images/3d_city_model.png)
+*3D Paris city model with building meshes and terrain*
+
 - **Data Loading**: Processes Paris building meshes from Blender OBJ files
 - **Grid Generation**: Creates 300x300 navigation grid with building height constraints
 - **3D Visualization**: Open3D rendering of optimal flight paths
@@ -52,10 +67,16 @@ Demonstrates pathfinding in realistic 3D urban environment:
 
 Interactive delivery planning system:
 
+![Delivery Setup](images/delivery_setup.png)
+*Interactive delivery point selection interface*
+
 - **Point Selection**: Click map to choose depot and delivery locations
 - **Route Optimization**: Tests all permutations for optimal truck routes
 - **Drone vs Truck**: Compares hub-and-spoke vs sequential delivery models
 - **Visual Results**: Side-by-side route visualization with distance metrics
+
+![Delivery Results](images/delivery_results.png)
+*Comparative analysis: Blue route (truck) vs Orange route (drone)*
 
 **Workflow**:
 1. Select number of delivery points

@@ -53,7 +53,7 @@ Interactive grid-based visualization showing how different pathfinding algorithm
 
 Demonstrates pathfinding in realistic 3D urban environment:
 
-![3D City Model](images/3d_city_model.png)
+![3D City Model](screenshots/3d_city_model.png)
 *3D Paris city model with building meshes and terrain*
 
 - **Data Loading**: Processes Paris building meshes from Blender OBJ files
@@ -67,7 +67,7 @@ Demonstrates pathfinding in realistic 3D urban environment:
 
 Interactive delivery planning system:
 
-![Delivery Setup](images/delivery_setup.png)
+![Delivery Setup](screenshots/delivery_setup.png)
 *Interactive delivery point selection interface*
 
 - **Point Selection**: Click map to choose depot and delivery locations
@@ -75,7 +75,7 @@ Interactive delivery planning system:
 - **Drone vs Truck**: Compares hub-and-spoke vs sequential delivery models
 - **Visual Results**: Side-by-side route visualization with distance metrics
 
-![Delivery Results](images/delivery_results.png)
+![Delivery Results](screenshots/delivery_results.png)
 *Comparative analysis: Blue route (truck) vs Orange route (drone)*
 
 **Workflow**:

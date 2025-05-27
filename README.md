@@ -34,7 +34,7 @@ Interactive grid-based visualization showing how different pathfinding algorithm
 **Algorithm Results Comparison:**
 
 <div align="center">
-  <img src="screenshots/dijkstra-3.png.png" alt="Dijkstra Result" width="45%"/>
+  <img src="screenshots/dijkstra-3.png" alt="Dijkstra Result" width="45%"/>
   <img src="screenshots/a_star-3.png" alt="A* Result" width="45%"/>
 </div>
 
